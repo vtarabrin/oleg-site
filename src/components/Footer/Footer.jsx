@@ -24,21 +24,36 @@ function Footer() {
               <li>
                 <Link to="/tent-pvx">Тенты ПВХ</Link>
               </li>
+              <li>
+                <Link to="/zhbi">ЖБИ</Link>
+              </li>
             </ul>
           </div>
           <div className="col">
             <div className="h5">Контакты</div>
             <ul>
-              <li>Номер</li>
-              <li>Почта</li>
-              <li>Контакнтное лицо</li>
-              <li>Вацап</li>
+              <span>Город</span>
+
+              <p className="city">Атырау</p>
+              <span>Телефоны</span>
+              <br />
+              <p className="phone">89103603114</p>
+              <p className="phone">89103603114</p>
+              <span>Работает</span>
+              <br />
+              <p className="work">
+                Склад: с 9:00 до 18:00 Звонки принимаем: с 8:00 до 20:00 Также возможна отгрузка в
+                выходные и во внерабочее время по предварительной договоренности
+              </p>
+              <span>Email магазина</span>
+              <br />
+              <span className="email"></span>
             </ul>
           </div>
           <div className="col">
             <div className="h2">Компания</div>
             <img src={assets.logo} alt="" />
-            <p>"ТОО УралПромСнаб"</p>
+            <p className="ural">"ТОО УралПромСнаб"</p>
           </div>
         </div>
       </div>

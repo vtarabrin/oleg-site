@@ -1,4 +1,4 @@
-import './Asaid.css'
+import './Asaid.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
 
@@ -29,6 +29,11 @@ function Asaid() {
             <li className="li-left">
               <p>
                 <Link to="/tent-pvx">Тенты ПВХ</Link>
+              </p>
+            </li>
+            <li className="li-left">
+              <p>
+                <Link to="/zhbi">ЖБИ</Link>
               </p>
             </li>
           </ul>

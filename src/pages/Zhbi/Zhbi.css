@@ -1,0 +1,43 @@
+.zhbi-tittle {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  color: #3cd66c;
+  text-align: center;
+  font: 20px 'Ubuntu', Arial, sans-serif;
+  position: relative;
+}
+
+h3.title-example {
+  font-size: 20px;
+  color: #5a5a5a;
+  text-align: center;
+}
+
+h3.title-example:before {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #f66d52;
+  width: 150px;
+  margin: 0 auto 10px;
+  transition: 1s;
+}
+h3.title-example:hover:before {
+  width: 250px;
+  transition: ease-out 1s;
+}
+
+h3.title-example:after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #f66d52;
+  width: 150px;
+  margin: 10px auto 0;
+  transition: 1s;
+}
+h3.title-example:hover:after {
+  width: 250px;
+  transition: ease-out 1s;
+}

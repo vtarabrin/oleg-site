@@ -37,6 +37,10 @@ function Main() {
               <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
               <p>Тенты ПВХ</p>
             </Link>
+            <Link to="/zhbi">
+              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <p>ЖБИ</p>
+            </Link>
           </div>
         </aside>
       </div>
