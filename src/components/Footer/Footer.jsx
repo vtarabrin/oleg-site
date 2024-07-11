@@ -8,35 +8,38 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-content">
-        <div className="footer-left">
-          <h2>Компания</h2>
-          <img src={assets.logo} alt="" />
-          <p>"ТОО УралПромСнаб"</p>
-        </div>
-        <div className="footer-center">
-          <h2>Каталог</h2>
-          <ul>
-            <li>
-              <Link to="/polog-bresent">Полог брезентовый</Link>
-            </li>
-            <li>
-              <Link to="/tent-oxford">Тент Оксфорд</Link>
-            </li>
-            <li>
-              <Link to="/tent-parapulin">Тент Тарпаулин</Link>
-            </li>
-            <li>
-              <Link to="/tent-pvx">Тенты ПВХ</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-right">
-          <h2>Контакты</h2>
-          <ul>
-            <li>ПОЧТА</li>
-            <li>Nomer</li>
-            <li>NOMER</li>
-          </ul>
+        <div className="row">
+          <div className="col">
+            <div className="h5">Каталог</div>
+            <ul>
+              <li>
+                <Link to="/polog-bresent">Полог брезентовый</Link>
+              </li>
+              <li>
+                <Link to="/tent-oxford">Тент Оксфорд</Link>
+              </li>
+              <li>
+                <Link to="/tent-parapulin">Тент Тарпаулин</Link>
+              </li>
+              <li>
+                <Link to="/tent-pvx">Тенты ПВХ</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col">
+            <div className="h5">Контакты</div>
+            <ul>
+              <li>Номер</li>
+              <li>Почта</li>
+              <li>Контакнтное лицо</li>
+              <li>Вацап</li>
+            </ul>
+          </div>
+          <div className="col">
+            <div className="h2">Компания</div>
+            <img src={assets.logo} alt="" />
+            <p>"ТОО УралПромСнаб"</p>
+          </div>
         </div>
       </div>
     </div>

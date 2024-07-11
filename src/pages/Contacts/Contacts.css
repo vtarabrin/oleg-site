@@ -1,20 +1,32 @@
-.contacts {
-   padding: 0;
-   margin: 0;
-   width: auto;
-   display: block;
-   margin-right: auto;
-   margin-left: auto;
-   padding-left: 15px;
-   padding-right: 15px;
-   background: #eee;
-   padding-bottom: 20px;
- }
- 
- .contacts-inner{
-   max-width: 1170px;
-   display: flex;
-   justify-content: space-between;
- }
+.contact-info {
+  box-sizing: border-box;
+  margin-top: 15px;
+  padding: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(104, 89, 89, 0.2);
+  box-shadow: 0 0 10px rgba(104, 89, 89, 0.2);
+  padding-bottom: 0px;
+}
 
- 
+.contact-span {
+  display: table;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.contact-span::before {
+  display: table-cell;
+  width: 200px;
+  padding: 0 10px 0 0;
+  content: attr(title) ':';
+}
+
+.contact-span + .contact-span {
+  border-width: 1px 0 0;
+  border-style: solid;
+  border-color: #c5c5c5;
+}
