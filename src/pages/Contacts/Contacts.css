@@ -1,0 +1,20 @@
+.contacts {
+   padding: 0;
+   margin: 0;
+   width: auto;
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   background: #eee;
+   padding-bottom: 20px;
+ }
+ 
+ .contacts-inner{
+   max-width: 1170px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ 

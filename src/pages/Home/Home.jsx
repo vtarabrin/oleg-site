@@ -1,5 +1,6 @@
 import Main from '../../components/Main/Main';
 import './Home.css';
+import React from 'react';
 
 function Home() {
   return (
