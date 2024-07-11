@@ -4,10 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  position: sticky;
+  top: 0;
 }
 
 .nav-inner {
+  position: fixed;
   width: 1170px;
   height: 64px;
 }
@@ -38,9 +40,6 @@
   text-transform: uppercase;
   font: bold 13px / 18px Arial, Helvetica, sans-serif;
 }
-
-
-
 
 .nav li:hover {
   background-color: #333333;
