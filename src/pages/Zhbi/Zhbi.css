@@ -18,7 +18,7 @@ h3.title-example:before {
   content: '';
   display: block;
   height: 1px;
-  background: #f66d52;
+  background: #01aaf3;
   width: 150px;
   margin: 0 auto 10px;
   transition: 1s;
@@ -32,7 +32,7 @@ h3.title-example:after {
   content: '';
   display: block;
   height: 1px;
-  background: #f66d52;
+  background: #01aaf3;
   width: 150px;
   margin: 10px auto 0;
   transition: 1s;

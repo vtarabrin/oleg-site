@@ -8,28 +8,52 @@ function Contacts() {
       <div className="main-inner">
         <Asaid />
         <aside className="aside-right">
-          <div className="main-tittle">
-            <span className="main-tittle-inner">Контакты</span>
-          </div>
-          <div className="contact-info">
-            <span class="contact-span" title="Название">
-              ТОО "Реал Пром Техно"
-            </span>
-            <span class="contact-span" title="Контакное лицо">
-              Олег
-            </span>
-            <span class="contact-span" title="Телефон">
-              89102210068
-            </span>
-            <span class="contact-span" title="Сайт компании">
-              ТОО "Реал Пром Техно"
-            </span>
-            <span class="contact-span" title="Email">
-              v.tarabrin03@gmail.com
-            </span>
-            <span class="contact-span" title="WhatsApp">
-              89103603114
-            </span>
+          <h3 class="title-example">Контакты</h3>
+          <div className="contacts">
+            <div className="contacts-col1">
+              <div className="contacts-row1">
+                <img src="https://brezent.su/core/icon/address.svg" alt="" />
+                <div>
+                  <span>Адрес магазина</span>
+                  <b>там там там</b>
+                  <br />
+                  <br />
+                  <b>г.Атырау</b>
+                </div>
+              </div>
+              <div className="contacts-row1">
+                <img src="https://brezent.su/core/icon/address.svg" alt="" />
+                <div>
+                  <span>Телефоны:</span>
+                  <a href="tel:89103603114"> 89103603114</a>
+                  <br />
+                  <a href="tel:89103603114">89102210068</a>
+                </div>
+              </div>
+
+              <div className="contacts-row1">
+                <img src="https://brezent.su/core/icon/address.svg" alt="" />
+                <div>
+                  <span>Email для писем и заявок:</span>
+                  <a href="tel:89103603114"> fwafa@mail.ru</a>
+                  <br />
+                  <a href="tel:89103603114">21frwaf@gmail.com</a>
+                </div>
+              </div>
+
+              <div className="contacts-row1">
+                <img src="https://brezent.su/core/icon/address.svg" alt="" />
+                <div>
+                  <span>Время работы</span>
+                  <b>
+                    Склад: с 0 до 18
+                    <br />
+                    Звонки принимаем с: ""
+                  </b>
+                </div>
+              </div>
+            </div>
+            <div className="contacts-col2"></div>
           </div>
         </aside>
       </div>

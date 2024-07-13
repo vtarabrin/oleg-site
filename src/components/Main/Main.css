@@ -6,7 +6,7 @@
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background: #eee;
+  background: #f0f4f8;
   padding-bottom: 20px;
 }
 
@@ -14,6 +14,7 @@
   max-width: 1170px;
   display: flex;
   justify-content: space-between;
+  background: #f0f4f8;
 }
 
 .aside-right {
@@ -22,35 +23,18 @@
   margin-top: 20px;
 }
 
-.main-tittle {
-  margin-top: 20px;
-  background: #4e4e4e;
-}
-
 .main-tittle-inner {
-  position: relative;
-  display: inline-block;
-  margin-top: -10px;
-  padding: 10px 5px;
-  max-width: 500px;
-  background: #f37272;
-  color: #fff;
-  font: bold 14px / 20px Arial, Helvetica, sans-serif;
-}
-
-span::after {
-  position: absolute;
-  top: 0;
-  right: -10px;
   display: block;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent #9e4242 #9e4242;
-  content: '';
-}
-
-.aside-right ul {
-  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  color: black;
+  text-align: center;
+  font: 20px 'Ubuntu', Arial, sans-serif;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  background: #02a1e4;
 }
 
 ul,
@@ -62,7 +46,7 @@ a {
 }
 
 a:hover {
-  color: #45bf92;
+  color: #02a1e4;
 }
 
 .card {
@@ -82,4 +66,12 @@ a:hover {
 
 .card img {
   height: 150px;
+}
+
+.card p {
+  padding-top: 40px;
+}
+
+.card a:hover {
+  color: #02a1e4;
 }

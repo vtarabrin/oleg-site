@@ -1,9 +1,10 @@
 .nav {
-  background: #4e4e4e;
+  background: #fff;
   height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom: 2px solid #02a1e4;
 }
 
 .nav-inner {
@@ -31,7 +32,6 @@
 .nav a {
   text-decoration: none;
   padding: 23px 20px;
-  color: #fff;
   vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
@@ -39,5 +39,5 @@
 }
 
 .nav li:hover {
-  background-color: #333333;
+  background-color: #dceffd;
 }
