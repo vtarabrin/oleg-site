@@ -41,3 +41,26 @@ h3.title-example:hover:after {
   width: 250px;
   transition: ease-out 1s;
 }
+
+.zhbi-tittle-main {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.zhbi-tittle-main-h3 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.main-text-p {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.card {
+  padding-top: 10px;
+}

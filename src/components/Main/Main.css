@@ -68,10 +68,11 @@ a:hover {
   height: 150px;
 }
 
-.card p {
-  padding-top: 40px;
+.card a:hover {
+  color: #02a1e4;
 }
 
-.card a:hover {
+.price {
+  padding-top: 20px;
   color: #02a1e4;
 }

@@ -53,7 +53,7 @@ a:hover {
   transition: all ease 0.5s;
   left: calc(100% + 10px);
   background: #fff;
-  z-index: 99;
+  z-index: 1;
   top: calc(100% - 30px);
 }
 
@@ -61,14 +61,17 @@ a:hover {
   z-index: 99;
   opacity: 1;
   margin-top: 0;
+  
 }
 
 .aside-left ul .sub-menu li {
   margin: 0;
   width: 100%;
+  
 }
 
 .aside-left ul .sub-menu li a {
+  
   display: inline-block;
   width: 100%;
   color: #333;
