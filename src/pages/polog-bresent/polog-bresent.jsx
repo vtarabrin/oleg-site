@@ -2,6 +2,7 @@ import './polog-bresent.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function PologBresent() {
   return (
@@ -70,15 +71,15 @@ function PologBresent() {
           </p>
           <div className="card">
             <Link to="/polog-bresent-ogne">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pologBresentOgne} alt="" />
               <p>Полог брезентовый огнеупорный</p>
             </Link>
             <Link to="/polog-bresent-voda">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pologBresentVoda} alt="" />
               <p>Полог брезентовый водоупорный</p>
             </Link>
             <Link to="/polog-bresent-ytep">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pologBresentYtep} alt="" />
               <p>Полог брезентовый утепленный</p>
             </Link>
           </div>

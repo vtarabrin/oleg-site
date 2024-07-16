@@ -2,6 +2,7 @@ import './tent-tarpaulin.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function TentTarpaulin() {
   return (
@@ -65,16 +66,16 @@ function TentTarpaulin() {
             сохранность.
           </p>
           <div className="card">
-            <Link to="/pdk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+            <Link to="/tent-tarpaulin120">
+              <img src={assets.tentParapulin120} alt="" />
               <p>Тент тарпаулин 120гр/м2</p>
             </Link>
-            <Link to="/kolco">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+            <Link to="/tent-tarpaulin180">
+              <img src={assets.tentParapulin180} alt="" />
               <p>Тент тарпаулин 180гр/м2</p>
             </Link>
-            <Link to="/ppk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+            <Link to="/tent-tarpaulin70">
+              <img src={assets.tentParapulin70} alt="" />
               <p>Тент тарпаулин 70гр/м2</p>
             </Link>
           </div>

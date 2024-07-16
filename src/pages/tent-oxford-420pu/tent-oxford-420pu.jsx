@@ -2,6 +2,7 @@ import './tent-oxford-420pu.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function TentOxford420PU() {
   return (
@@ -9,44 +10,52 @@ function TentOxford420PU() {
       <div className="main-inner">
         <Asaid />
         <aside className="aside-right">
-          <h3 class="title-example">Тент оксфорд 420 PU+</h3>
-          <h4 className="zhbi-tittle-main">Маркировка ЖБИ кольца</h4>
-          <p className="main-text-p">
-            Для идентификации железобетонных колец используется стандартизированная
-            буквенно-цифровая маркировка. Буквенные обозначения включают:
-          </p>
-          <p className="main-text-p">КС - стеновые кольца, используемые в стесненных условиях;</p>
-          <p className="main-text-p">ДК - монолитный "стакан", кольцо с дном;</p>
-          <p className="main-text-p">ПП - крышка;</p>
-          <p className="main-text-p">ПН - дно кольца;</p>
-          <p className="main-text-p">ПК - монолитная конструкция, включающая кольцо и крышку;</p>
-          <p className="main-text-p">
-            КЛК - изделия для прокладки канализационных и ливневых систем;
-          </p>
-          <p className="main-text-p">
-            КО - опорное кольцо, обеспечивающее стабильное положение колодезной конструкции;
-          </p>
-          <p className="main-text-p">
-            КФК - изделия для сооружения коллекторных и дренажных систем;
-          </p>
-          <p className="main-text-p">
-            КВГ - ЖБ-кольца для обустройства водозаборных колодцев и прокладки газопровода.
-          </p>
-          <p className="main-text-p">
-            Числовые обозначения характеризуют высоту, толщину, массу и внутренний диаметр ЖБ-колец.
-          </p>
+          <h3 className="title-example">Тент оксфорд 420 PU+</h3>
           <div className="card">
-            <Link to="/pdk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/tent-oxford-420pu-4x6">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 4 x 6 м. </p>
+              <p className="price">1000тенге</p>
             </Link>
-            <Link to="/kolco">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/tent-oxford-420pu-25x3">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 2.5 x 3 м. </p>
+              <p className="price">1000тенге</p>
             </Link>
-            <Link to="/ppk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/tent-oxford-420pu-3x5">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 3 x 5 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-420pu-5x10">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 5 x 10 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-420pu-6x8">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 6 x 8 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-420pu-27x45">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 2.7 x 4.5 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-420pu-27x54">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 2.7 x 5.4 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-420pu-27x58">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 2.7 x 5.8 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-420pu-27x68">
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+ - 2.7 x 6.8 м. </p>
+              <p className="price">1000тенге</p>
             </Link>
           </div>
         </aside>

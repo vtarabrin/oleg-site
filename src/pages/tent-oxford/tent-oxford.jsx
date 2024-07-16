@@ -2,6 +2,7 @@ import './tent-oxford.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function TentOxford() {
   return (
@@ -69,15 +70,15 @@ function TentOxford() {
           </p>
           <div className="card">
             <Link to="/tent-oxford-210pu">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.tentOxford210PU} alt="" />
               <p>Тент оксфорд 210PU</p>
             </Link>
             <Link to="/tent-oxford-420pu">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Тент оксфорд 420PU +</p>
+              <img src={assets.tentOxford420PU} alt="" />
+              <p>Тент оксфорд 420PU+</p>
             </Link>
             <Link to="/tent-oxford-ytep">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.tentOxford210PUYtep} alt="" />
               <p>Тент оксфорд утепленный</p>
             </Link>
           </div>

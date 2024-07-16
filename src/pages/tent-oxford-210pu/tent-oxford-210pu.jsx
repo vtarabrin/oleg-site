@@ -2,6 +2,7 @@ import './tent-oxford-210pu.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function TentOxford210PU() {
   return (
@@ -10,43 +11,31 @@ function TentOxford210PU() {
         <Asaid />
         <aside className="aside-right">
           <h3 class="title-example">Тент оксфорд 210PU</h3>
-          <h4 className="zhbi-tittle-main">Маркировка ЖБИ кольца</h4>
-          <p className="main-text-p">
-            Для идентификации железобетонных колец используется стандартизированная
-            буквенно-цифровая маркировка. Буквенные обозначения включают:
-          </p>
-          <p className="main-text-p">КС - стеновые кольца, используемые в стесненных условиях;</p>
-          <p className="main-text-p">ДК - монолитный "стакан", кольцо с дном;</p>
-          <p className="main-text-p">ПП - крышка;</p>
-          <p className="main-text-p">ПН - дно кольца;</p>
-          <p className="main-text-p">ПК - монолитная конструкция, включающая кольцо и крышку;</p>
-          <p className="main-text-p">
-            КЛК - изделия для прокладки канализационных и ливневых систем;
-          </p>
-          <p className="main-text-p">
-            КО - опорное кольцо, обеспечивающее стабильное положение колодезной конструкции;
-          </p>
-          <p className="main-text-p">
-            КФК - изделия для сооружения коллекторных и дренажных систем;
-          </p>
-          <p className="main-text-p">
-            КВГ - ЖБ-кольца для обустройства водозаборных колодцев и прокладки газопровода.
-          </p>
-          <p className="main-text-p">
-            Числовые обозначения характеризуют высоту, толщину, массу и внутренний диаметр ЖБ-колец.
-          </p>
           <div className="card">
-            <Link to="/pdk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/tent-oxford-210pu-4x6">
+              <img src={assets.tentOxford210PU} alt="" />
+              <p>Тент оксфорд 210PU - 4 x 6 м. </p>
+              <p className="price">1000тенге</p>
             </Link>
-            <Link to="/kolco">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/tent-oxford-210pu-25x3">
+              <img src={assets.tentOxford210PU} alt="" />
+              <p>Тент оксфорд 210PU - 2.5 x 3 м. </p>
+              <p className="price">1000тенге</p>
             </Link>
-            <Link to="/ppk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/tent-oxford-210pu-3x5">
+              <img src={assets.tentOxford210PU} alt="" />
+              <p>Тент оксфорд 210PU - 3 x 5 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-210pu-5x10">
+              <img src={assets.tentOxford210PU} alt="" />
+              <p>Тент оксфорд 210PU - 5 x 10 м. </p>
+              <p className="price">1000тенге</p>
+            </Link>
+            <Link to="/tent-oxford-210pu-6x8">
+              <img src={assets.tentOxford210PU} alt="" />
+              <p>Тент оксфорд 210PU - 6 x 8 м. </p>
+              <p className="price">1000тенге</p>
             </Link>
           </div>
         </aside>

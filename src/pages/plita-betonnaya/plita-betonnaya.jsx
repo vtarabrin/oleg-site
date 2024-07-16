@@ -1,6 +1,5 @@
 import React from 'react';
 import './plita-betonnaya.css';
-import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
 
 function PlitaBetonnaya() {

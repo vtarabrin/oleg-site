@@ -2,6 +2,7 @@ import './Main.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import Asaid from '../Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function Main() {
   return (
@@ -14,15 +15,15 @@ function Main() {
           </div>
           <div className="card">
             <Link to="/polog-bresent">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pologBresentOgne} alt="" />
               <p>Полог брезентовый</p>
             </Link>
             <Link to="/tent-tarpaulin">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.tentParapulin180} alt="" />
               <p>Тент Тарпаулин</p>
             </Link>
             <Link to="/tent-oxford">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.tentOxford420PU} alt="" />
               <p>Тент Оксфорд</p>
             </Link>
             <Link to="/zhbi">

@@ -1,0 +1,15 @@
+.product-cart {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.product-cart-left {
+  padding-right: 50px;
+}
+
+.product-cart-left img {
+  height: 300px;
+}
