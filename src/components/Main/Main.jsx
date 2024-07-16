@@ -27,7 +27,7 @@ function Main() {
               <p>Тент Оксфорд</p>
             </Link>
             <Link to="/zhbi">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.kolca} alt="" />
               <p>ЖБИ кольца</p>
             </Link>
             <Link to="/beton-plitka-kabel">

@@ -14,6 +14,9 @@ import tentParapulin120 from './tent-tarpaulin-120.jpg';
 import tentParapulin180 from './tent-tarpaulin-180.jpg';
 import tentOxford210PUYtep from './tent-oxford-210PU-ytep.jpg';
 import tentOxford420PUYtep from './tent-oxford-420PU-ytep.jpg';
+import kolca from './kolca.jpg';
+import kolcaStenniye from './kolca-stenniye.jpg';
+import kolcaOpornoe from './kolca-opornoe.jpg';
 
 export const assets = {
   logo,
@@ -32,4 +35,7 @@ export const assets = {
   tentParapulin70,
   tentOxford210PUYtep,
   tentOxford420PUYtep,
+  kolca,
+  kolcaStenniye,
+  kolcaOpornoe,
 };

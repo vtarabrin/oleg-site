@@ -9,6 +9,10 @@
  .product-cart-left {
    padding-right: 50px;
  }
+
+ img {
+  width: 200px;
+ }
  
  .product-cart-left img {
    height: 300px;

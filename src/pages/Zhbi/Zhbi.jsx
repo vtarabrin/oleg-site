@@ -2,6 +2,7 @@ import './Zhbi.css';
 import Asaid from '../../components/Asaid/Asaid';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function Zhbi() {
   return (
@@ -20,11 +21,15 @@ function Zhbi() {
           <p className="main-text-p">ПП - крышка;</p>
           <p className="main-text-p">ПН - дно кольца;</p>
           <p className="main-text-p">ПК - монолитная конструкция, включающая кольцо и крышку;</p>
-          <p className="main-text-p">КЛК - изделия для прокладки канализационных и ливневых систем;</p>
+          <p className="main-text-p">
+            КЛК - изделия для прокладки канализационных и ливневых систем;
+          </p>
           <p className="main-text-p">
             КО - опорное кольцо, обеспечивающее стабильное положение колодезной конструкции;
           </p>
-          <p className="main-text-p">КФК - изделия для сооружения коллекторных и дренажных систем;</p>
+          <p className="main-text-p">
+            КФК - изделия для сооружения коллекторных и дренажных систем;
+          </p>
           <p className="main-text-p">
             КВГ - ЖБ-кольца для обустройства водозаборных колодцев и прокладки газопровода.
           </p>
@@ -36,15 +41,14 @@ function Zhbi() {
               <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
               <p>Плиты днища колодца</p>
             </Link>
-            <Link to="/kolco">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+            <Link to="/kolca">
+              <img src={assets.kolca} alt="" />
               <p>Кольца</p>
             </Link>
             <Link to="/ppk">
               <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
               <p>Плита перекрытия колодцев</p>
             </Link>
-            
           </div>
         </aside>
       </div>

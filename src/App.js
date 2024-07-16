@@ -122,6 +122,16 @@ import PologBresentYtep4x6 from './pages/polog-bresent-ytep/polog-bresent-ytep-4
 import PologBresentYtep5x10 from './pages/polog-bresent-ytep/polog-bresent-ytep-5x10';
 import PologBresentYtep6x8 from './pages/polog-bresent-ytep/polog-bresent-ytep-6x8';
 import PologBresentYtep10x10 from './pages/polog-bresent-ytep/polog-bresent-ytep-10x10';
+import KolcaOpornoe6 from './pages/kolca/kolca-opornoe-6';
+import KolcaStenovie73 from './pages/kolca/kolca-stenovie-73';
+import KolcaStenovie103 from './pages/kolca/kolca-stenovie-103';
+import KolcaStenovie106 from './pages/kolca/kolca-stenovie-106';
+import KolcaStenovie153 from './pages/kolca/kolca-stenovie-153';
+import KolcaStenovie156 from './pages/kolca/kolca-stenovie-156';
+import KolcaStenovie159 from './pages/kolca/kolca-stenovie-159';
+import KolcaStenovie203 from './pages/kolca/kolca-stenovie-203';
+import KolcaStenovie206 from './pages/kolca/kolca-stenovie-206';
+import KolcaStenovie209 from './pages/kolca/kolca-stenovie-209';
 
 function App() {
   return (
@@ -251,6 +261,16 @@ function App() {
           <Route path="/polog-bresent-ytep-5x10" element={<PologBresentYtep5x10 />} />
           <Route path="/polog-bresent-ytep-6x8" element={<PologBresentYtep6x8 />} />
           <Route path="/polog-bresent-ytep-10x10" element={<PologBresentYtep10x10 />} />
+          <Route path="/kolca-opornoe-6" element={<KolcaOpornoe6 />} />
+          <Route path="/kolca-stenovie-73" element={<KolcaStenovie73 />} />
+          <Route path="/kolca-stenovie-103" element={<KolcaStenovie103 />} />
+          <Route path="/kolca-stenovie-106" element={<KolcaStenovie106 />} />
+          <Route path="/kolca-stenovie-153" element={<KolcaStenovie153 />} />
+          <Route path="/kolca-stenovie-156" element={<KolcaStenovie156 />} />
+          <Route path="/kolca-stenovie-159" element={<KolcaStenovie159 />} />
+          <Route path="/kolca-stenovie-203" element={<KolcaStenovie203 />} />
+          <Route path="/kolca-stenovie-206" element={<KolcaStenovie206 />} />
+          <Route path="/kolca-stenovie-209" element={<KolcaStenovie209 />} />
         </Routes>
         <Footer />
       </div>
