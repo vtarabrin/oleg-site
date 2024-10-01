@@ -24,7 +24,7 @@ function TentTarpaulin1205x6() {
               <p className="main-text-p">• Размер — 5х6</p>
               <p className="main-text-p">• Плотность (гр/м2) — 120</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

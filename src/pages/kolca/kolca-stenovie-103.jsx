@@ -25,7 +25,7 @@ function KolcaStenovie103() {
               <p className="main-text-p">• Толщина борта 10 см</p>
               <p className="main-text-p">• Диаметр внутренний 100 см</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

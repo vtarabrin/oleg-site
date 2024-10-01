@@ -15,32 +15,26 @@ function TentOxfordYtep() {
             <Link to="/tent-oxford-ytep-420-4x6">
               <img src={assets.tentOxford420PUYtep} alt="" />
               <p>Тент оксфорд утепленный 420PU+ - 4 x 6 м. </p>
-              <p className="price">1000тенге</p>
             </Link>
             <Link to="/tent-oxford-ytep-420-25x3">
               <img src={assets.tentOxford420PUYtep} alt="" />
               <p>Тент оксфорд утепленный 420PU+ - 2.5 x 3 м. </p>
-              <p className="price">1000тенге</p>
             </Link>
             <Link to="/tent-oxford-ytep-210-3x5">
               <img src={assets.tentOxford210PUYtep} alt="" />
               <p>Тент оксфорд утепленный 210PU - 3 x 5 м. </p>
-              <p className="price">1000тенге</p>
             </Link>
             <Link to="/tent-oxford-ytep-420-3x5">
               <img src={assets.tentOxford420PUYtep} alt="" />
               <p>Тент оксфорд утепленный 420PU+ - 3 x 5 м. </p>
-              <p className="price">1000тенге</p>
             </Link>
             <Link to="/tent-oxford-ytep-210-6x8">
               <img src={assets.tentOxford210PUYtep} alt="" />
               <p>Тент оксфорд утепленный 210PU - 6 x 8 м. </p>
-              <p className="price">1000тенге</p>
             </Link>
             <Link to="/tent-oxford-ytep-420-6x8">
               <img src={assets.tentOxford420PUYtep} alt="" />
               <p>Тент оксфорд утепленный 420PU+ - 6 x 8 м. </p>
-              <p className="price">1000тенге</p>
             </Link>
           </div>
         </aside>

@@ -2,6 +2,7 @@ import React from 'react';
 import './bitum-neft.css';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function BitumNeft() {
   return (
@@ -76,17 +77,29 @@ function BitumNeft() {
             широким спектром применения в различных отраслях.
           </p>
           <div className="card">
-            <Link to="/pdk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/bitum-mg40x70">
+              <img src={assets.BitumNeft} alt="" />
+              <p>Битум МГ 40/70</p>
             </Link>
-            <Link to="/kolco">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/bitum-mgo70x130">
+              <img src={assets.BitumNeft} alt="" />
+              <p>Битум МГО 70/130</p>
             </Link>
-            <Link to="/ppk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Полог брезентовый</p>
+            <Link to="/bitum-mgo130x200">
+              <img src={assets.BitumNeft} alt="" />
+              <p>Битум МГО 130/200</p>
+            </Link>
+            <Link to="/bitum-mgo40x70">
+              <img src={assets.BitumNeft} alt="" />
+              <p>Битум МГО 40/70</p>
+            </Link>
+            <Link to="/bitum-mg70x130">
+              <img src={assets.BitumNeft} alt="" />
+              <p>Битум МГ 70/130</p>
+            </Link>
+            <Link to="/bitum-mg130x200">
+              <img src={assets.BitumNeft} alt="" />
+              <p>Битум МГ 130/200</p>
             </Link>
           </div>
         </aside>

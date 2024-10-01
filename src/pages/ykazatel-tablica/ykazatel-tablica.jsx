@@ -1,6 +1,8 @@
 import React from 'react';
 import './ykazatel-tablica.css';
 import Asaid from '../../components/Asaid/Asaid';
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function YkazatelTablica() {
   return (
@@ -58,6 +60,12 @@ function YkazatelTablica() {
             навигации для людей в различных местах. Они помогают сориентироваться и найти нужное
             место или объект быстро и без лишних затруднений.
           </p>
+          <div className="card">
+            <Link to="/tablica-marker-stolb">
+              <img src={assets.YkazatelTablica} alt="" />
+              <p>Таблички для маркерного столбика</p>
+            </Link>
+          </div>
         </aside>
       </div>
     </div>

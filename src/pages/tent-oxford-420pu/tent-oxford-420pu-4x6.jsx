@@ -24,7 +24,7 @@ function TentOxford420PU4x6() {
               <p className="main-text-p">• Размер — 4х6</p>
               <p className="main-text-p">• Плотность (гр/м2) — 375</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

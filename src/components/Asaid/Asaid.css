@@ -35,6 +35,7 @@ a {
   text-decoration: none;
 }
 
+
 a:hover {
   color: #02a1e4;
 }
@@ -82,3 +83,4 @@ a:hover {
 .aside-left ul li a:hover {
   color: #02a1e4;
 }
+

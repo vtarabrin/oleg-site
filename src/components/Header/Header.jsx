@@ -8,14 +8,14 @@ function Header() {
       <div className="header-content">
         <div className="row-header">
           <div className="col">
-            <img src={assets.logo2} alt="" />
+            <img className="col-img" src={assets.logo2} alt="" />
             <p className="header-p">
               Торговая компания задача которой являются поставки материалов для нефтегазовой отрасли
             </p>
             <a href="sales@ups.org.kz">Отдел продаж: sales@ups.org.kz</a>
             <br />
             <br />
-            <a href="89103603114">Whats`App: 89103603114</a>
+            <a href="89103603114">Whats`App: 77011390404</a>
             <p className="aturay">г. Атырау</p>
           </div>
           <div className="col-right">

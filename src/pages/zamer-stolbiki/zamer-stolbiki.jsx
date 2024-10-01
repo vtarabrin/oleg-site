@@ -1,6 +1,8 @@
 import React from 'react';
 import './zamer-stolbiki.css';
 import Asaid from '../../components/Asaid/Asaid';
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function ZamerStolbiki() {
   return (
@@ -72,6 +74,20 @@ function ZamerStolbiki() {
             Главная задача заключается в том, чтобы помечать ключевые границы объектов на местности
             для последующего анализа данных.
           </p>
+          <div className="card">
+            <Link to="/jelez-zamer-stolbik">
+              <img src={assets.JelezZamerStolbik} alt="" />
+              <p>Железобетонные замерные столбики</p>
+            </Link>
+            <Link to="/zamer-stolb-24">
+              <img src={assets.ZamerStolb24} alt="" />
+              <p>Замерный указательный столбик 2,4 метра</p>
+            </Link>
+            <Link to="/zamer-stolbik">
+              <img src={assets.ZamerStolb24} alt="" />
+              <p>Замерный указательный столбик</p>
+            </Link>
+          </div>
         </aside>
       </div>
     </div>

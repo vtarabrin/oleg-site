@@ -27,7 +27,7 @@ function PologBresentOgne27x45() {
               <p className="main-text-p">• Плотность (гр/м2) — 450</p>
               <p className="main-text-p">• Пропитка — огнеупорная</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

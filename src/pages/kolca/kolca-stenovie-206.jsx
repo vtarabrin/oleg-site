@@ -21,7 +21,7 @@ function KolcaStenovie206() {
               <p className="main-text-p">• Объем 1900 л</p>
               <p className="main-text-p">• Размеры 220*200*60*10 см</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

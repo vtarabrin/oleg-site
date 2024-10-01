@@ -93,3 +93,10 @@
 .slider-nav a:hover {
   opacity: 1;
 }
+
+.col-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  height: 100px;
+}

@@ -17,8 +17,56 @@ import tentOxford420PUYtep from './tent-oxford-420PU-ytep.jpg';
 import kolca from './kolca.jpg';
 import kolcaStenniye from './kolca-stenniye.jpg';
 import kolcaOpornoe from './kolca-opornoe.jpg';
+import pdk10 from './pdk10.webp';
+import pdk15 from './pdk15.webp';
+import pdk20 from './pdk20.webp';
+import pp102 from './pp10-2.jpg';
+import pp10 from './pp10.jpg';
+import pp152 from './pp10-2.jpg';
+import pp15 from './pp15.jpg';
+import pp20 from './pp20.jpg';
+import danger from './danger.jpg';
+import betonPlitkaKabel from './beton-plitka-kabel.jpg';
+import ybk5 from './ybk5.jpg';
+import pzk from './pzk.png';
+import DniweKvadratKolodec from './dniwe-kvadrat-kolodec.jpg';
+import InspectKolodecZazem from './inspect-kolodec-zazem.jpg';
+import JelezZamerStolbik from './jelez-zamer-stolbik.jpg';
+import KolodecZazemBet from './kolodec-zazem-bet.jpg';
+import KriwkaKvadratKolodec from './kriwka-kvadrat-kolodec.png';
+import KvadratKolodec from './kvadrat-kolodec.jpg';
+import LentaSignal from './lenta-signal.jpg';
+import LukBeton from './luk-beton.jpg';
+import LukiPolimer from './luki-polimer.jpg';
+import ZamerStolb24 from './zamer-stolb-24.jpg';
+import YkazatelTablica from './tablica-marker-stolb.jpg';
+import BitumNeft from './bitum-neft.png';
+import VikBazaKomplekt from './vik_baze.jpg';
+import VikExpert from './vik_expertnk.jpg';
+import VikExpertComplect from './ekspertnyi_1.jpg';
+import VikNaks from './vik_nax.jpg';
+import VikTransneft from './vik_transneft.jpg';
+import VikYniversalKomplekt from './vik_uni.jpg';
 
 export const assets = {
+  VikBazaKomplekt,
+  VikExpert,
+  VikExpertComplect,
+  VikNaks,
+  VikTransneft,
+  VikYniversalKomplekt,
+  BitumNeft,
+  YkazatelTablica,
+  DniweKvadratKolodec,
+  InspectKolodecZazem,
+  JelezZamerStolbik,
+  KolodecZazemBet,
+  KriwkaKvadratKolodec,
+  KvadratKolodec,
+  LentaSignal,
+  LukBeton,
+  LukiPolimer,
+  ZamerStolb24,
   logo,
   logo2,
   main1,
@@ -38,4 +86,16 @@ export const assets = {
   kolca,
   kolcaStenniye,
   kolcaOpornoe,
+  pdk10,
+  pdk15,
+  pdk20,
+  pp102,
+  pp10,
+  pp152,
+  pp15,
+  pp20,
+  danger,
+  betonPlitkaKabel,
+  ybk5,
+  pzk,
 };

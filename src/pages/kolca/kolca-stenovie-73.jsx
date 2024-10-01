@@ -24,7 +24,7 @@ function KolcaStenovie73() {
               <p className="main-text-p">• Объем рабочей камеры 0.11 м3</p>
               <p className="main-text-p">• Размеры 84*70*30*6 см</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

@@ -64,6 +64,10 @@ a:hover {
   background-color: #fff;
 }
 
+.card p {
+  padding-top: 20px;
+}
+
 .card img {
   height: 150px;
 }
@@ -73,6 +77,6 @@ a:hover {
 }
 
 .price {
-  padding-top: 20px;
+  padding-top: 10px;
   color: #02a1e4;
 }

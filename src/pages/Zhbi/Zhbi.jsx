@@ -38,7 +38,7 @@ function Zhbi() {
           </p>
           <div className="card">
             <Link to="/pdk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pdk10} alt="" />
               <p>Плиты днища колодца</p>
             </Link>
             <Link to="/kolca">
@@ -46,7 +46,7 @@ function Zhbi() {
               <p>Кольца</p>
             </Link>
             <Link to="/ppk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pp10} alt="" />
               <p>Плита перекрытия колодцев</p>
             </Link>
           </div>

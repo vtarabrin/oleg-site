@@ -1,6 +1,8 @@
 import React from 'react';
 import './signal-lenta.css';
 import Asaid from '../../components/Asaid/Asaid';
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function SignalLenta() {
   return (
@@ -63,6 +65,12 @@ function SignalLenta() {
             возможных опасностях в различных областях промышленности, дорожного движения и
             общественной безопасности.
           </p>
+          <div className="card">
+            <Link to="/lenta-signal">
+              <img src={assets.LentaSignal} alt="" />
+              <p>Сигнальная лента</p>
+            </Link>
+          </div>
         </aside>
       </div>
     </div>

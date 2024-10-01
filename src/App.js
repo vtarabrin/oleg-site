@@ -1,3 +1,5 @@
+
+
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
@@ -132,12 +134,49 @@ import KolcaStenovie159 from './pages/kolca/kolca-stenovie-159';
 import KolcaStenovie203 from './pages/kolca/kolca-stenovie-203';
 import KolcaStenovie206 from './pages/kolca/kolca-stenovie-206';
 import KolcaStenovie209 from './pages/kolca/kolca-stenovie-209';
+import Pdk10 from './pages/pdk/pdk10';
+import Pdk15 from './pages/pdk/pdk15';
+import Pdk20 from './pages/pdk/pdk20';
+import Pdk23 from './pages/pdk/pdk23';
+import Bpk30030050 from './pages/beton-plitka-kabel2/bpk-300-300-50';
+import Bpk50020050 from './pages/beton-plitka-kabel2/bpk-500-200-50';
+import Bpk50025060 from './pages/beton-plitka-kabel2/bpk-500-250-60';
+import Bpk60030040 from './pages/beton-plitka-kabel2/bpk-600-300-40';
+import Bpk60030050 from './pages/beton-plitka-kabel2/bpk-600-300-50';
+import Bpk60060035 from './pages/beton-plitka-kabel2/bpk-600-600-35';
+import Bpk90023050 from './pages/beton-plitka-kabel2/bpk-900-230-50';
+import Bpk90030050 from './pages/beton-plitka-kabel2/bpk-900-300-50';
+import Bpk91415050 from './pages/beton-plitka-kabel2/bpk-914-150-50';
+import Bpk91430550 from './pages/beton-plitka-kabel2/bpk-914-305-50';
+import JelezZamerStolbik from './pages/zamer-stolbiki/jelez-zamer-stolbik';
+import ZamerStolb24 from './pages/zamer-stolbiki/zamer-stolb-24';
+import ZamerStolbik from './pages/zamer-stolbiki/zamer-stolbik';
+import KolodecZazemBet from './pages/kolodec-zazemleniya/kolodec-zazem-bet';
+import KolodecZazem from './pages/kolodec-zazemleniya/kolodec-zazem';
+import KriwkaKvadratKolodec from './pages/kolodec-zazemleniya/kriwka-kvadrat-kolodec';
+import InspectKolodecZazem from './pages/kolodec-zazemleniya/inspect-kolodec-zazem';
+import KvadratKolodec from './pages/kolodec-zazemleniya/kvadrat-kolodec';
+import PlitaBetonnaya1x05 from './pages/plita-betonnaya/plita-betonnaya-1x05';
+import LukiPolimer from './pages/luki/luki-polimer';
+import LukBeton from './pages/luki/luk-beton';
+import LentaSignal from './pages/signal-lenta/lenta-signal';
+import DniweKvadratKolodec from './pages/kolodec-zazemleniya/dniwe-kvadrat-kolodec';
+import TablicaMarkerStolb from './pages/ykazatel-tablica/tablica-marker-stolb';
+import BitumMG40x70 from './pages/bitum-neft/bitum-mg-40x70';
+import BitumMG70x130 from './pages/bitum-neft/bitum-mg70x130';
+import BitumMG130x200 from './pages/bitum-neft/bitum-mg130x200';
+import BitumMGO40x70 from './pages/bitum-neft/bitum-mgo40x70';
+import BitumMGO70x130 from './pages/bitum-neft/bitum-mgo70x130';
+import BitumMGO130x200 from './pages/bitum-neft/bitum-mgo130x200';
 
 function App() {
   return (
+    
     <>
+    
       <Navbar />
       <div className="App">
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -179,7 +218,7 @@ function App() {
           <Route path="/tent-oxford-420pu" element={<TentOxford420PU />} />
           <Route path="/tent-oxford-ytep" element={<TentOxfordYtep />} />
           <Route path="/vik-baza-komplekt" element={<VikBazaKomplekt />} />
-          <Route path="/vik-expert-complect" element={<VikExpert />} />
+          <Route path="/vik-expert" element={<VikExpert />} />
           <Route path="/vik-expert-complect" element={<VikExpertComplect />} />
           <Route path="/vik-naks" element={<VikNaks />} />
           <Route path="/vik-transneft" element={<VikTransneft />} />
@@ -271,9 +310,44 @@ function App() {
           <Route path="/kolca-stenovie-203" element={<KolcaStenovie203 />} />
           <Route path="/kolca-stenovie-206" element={<KolcaStenovie206 />} />
           <Route path="/kolca-stenovie-209" element={<KolcaStenovie209 />} />
+          <Route path="/pdk10" element={<Pdk10 />} />
+          <Route path="/pdk15" element={<Pdk15 />} />
+          <Route path="/pdk20" element={<Pdk20 />} />
+          <Route path="/pdk23" element={<Pdk23 />} />
+          <Route path="/bpk-300-300-50" element={<Bpk30030050 />} />
+          <Route path="/bpk-500-200-50" element={<Bpk50020050 />} />
+          <Route path="/bpk-500-250-60" element={<Bpk50025060 />} />
+          <Route path="/bpk-600-300-40" element={<Bpk60030040 />} />
+          <Route path="/bpk-600-300-50" element={<Bpk60030050 />} />
+          <Route path="/bpk-600-600-35" element={<Bpk60060035 />} />
+          <Route path="/bpk-900-230-50" element={<Bpk90023050 />} />
+          <Route path="/bpk-900-300-50" element={<Bpk90030050 />} />
+          <Route path="/bpk-914-150-50" element={<Bpk91415050 />} />
+          <Route path="/bpk-914-305-50" element={<Bpk91430550 />} />
+          <Route path="/jelez-zamer-stolbik" element={<JelezZamerStolbik />} />
+          <Route path="/zamer-stolb-24" element={<ZamerStolb24 />} />
+          <Route path="/zamer-stolbik" element={<ZamerStolbik />} />
+          <Route path="/kolodec-zazem-bet" element={<KolodecZazemBet />} />
+          <Route path="/kolodec-zazem" element={<KolodecZazem />} />
+          <Route path="/dniwe-kvadrat-kolodec" element={<DniweKvadratKolodec />} />
+          <Route path="/kriwka-kvadrat-kolodec" element={<KriwkaKvadratKolodec />} />
+          <Route path="/inspect-kolodec-zazem" element={<InspectKolodecZazem />} />
+          <Route path="/kvadrat-kolodec" element={<KvadratKolodec />} />
+          <Route path="/plita-betonnaya-1x05" element={<PlitaBetonnaya1x05 />} />
+          <Route path="/luki-polimer" element={<LukiPolimer />} />
+          <Route path="/luk-beton" element={<LukBeton />} />
+          <Route path="/lenta-signal" element={<LentaSignal />} />
+          <Route path="/tablica-marker-stolb" element={<TablicaMarkerStolb />} />
+          <Route path="/bitum-mg40x70" element={<BitumMG40x70 />} />
+          <Route path="/bitum-mg70x130" element={<BitumMG70x130 />} />
+          <Route path="/bitum-mg130x200" element={<BitumMG130x200 />} />
+          <Route path="/bitum-mgo40x70" element={<BitumMGO40x70 />} />
+          <Route path="/bitum-mgo70x130" element={<BitumMGO70x130 />} />
+          <Route path="/bitum-mgo130x200" element={<BitumMGO130x200 />} />
         </Routes>
         <Footer />
       </div>
+      
     </>
   );
 }

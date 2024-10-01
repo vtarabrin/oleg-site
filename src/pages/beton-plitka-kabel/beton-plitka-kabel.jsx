@@ -2,6 +2,7 @@ import React from 'react';
 import './beton-plitka-kabel.css';
 import { Link } from 'react-router-dom';
 import Asaid from '../../components/Asaid/Asaid';
+import { assets } from '../../assets/assets';
 
 function BetonPlitkaKabel() {
   return (
@@ -69,19 +70,19 @@ function BetonPlitkaKabel() {
           </p>
           <div className="card">
             <Link to="/beton-plitka-kabel2">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.betonPlitkaKabel} alt="" />
               <p>Бетонная плитка для защиты кабеля</p>
             </Link>
             <Link to="/beton-plitka-kabel-danger">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.danger} alt="" />
               <p>Плитка бетонная для защиты кабеля "DANGER - ОПАСНО"</p>
             </Link>
             <Link to="/plitka-pzk">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.pzk} alt="" />
               <p>Плитка ПЗК</p>
             </Link>
             <Link to="/plitka-ybk5">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
+              <img src={assets.ybk5} alt="" />
               <p>Плитка УБК 5</p>
             </Link>
           </div>

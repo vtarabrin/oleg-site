@@ -23,7 +23,7 @@ function KolcaOpornoe6() {
               <p className="main-text-p">• Масса 50 кг </p>
               <p className="main-text-p">• Размеры 580*840*70 см</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

@@ -19,13 +19,14 @@ function PologBresentOgne3x5() {
               <p className="zhbi-tittle-main-h3">Характеристики:</p>
               <p className="main-text-p">• Люверсы по периметру — есть</p>
               <p className="main-text-p">
-                • Свойства и сферы применения — Полог на Камаз, Для кузова Iveco; MAN; Volvo; Scania, Для кузова самосвала, Укрывной, Негорючий, С люверсами, Для асфальта
+                • Свойства и сферы применения — Полог на Камаз, Для кузова Iveco; MAN; Volvo;
+                Scania, Для кузова самосвала, Укрывной, Негорючий, С люверсами, Для асфальта
               </p>
               <p className="main-text-p">• Размер — 3х5</p>
               <p className="main-text-p">• Плотность (гр/м2) — 450</p>
               <p className="main-text-p">• Пропитка — огнеупорная</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

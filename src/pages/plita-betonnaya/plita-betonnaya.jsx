@@ -1,6 +1,8 @@
 import React from 'react';
 import './plita-betonnaya.css';
 import Asaid from '../../components/Asaid/Asaid';
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function PlitaBetonnaya() {
   return (
@@ -68,6 +70,12 @@ function PlitaBetonnaya() {
             Бетонные плиты являются универсальным материалом, который находит применение в различных
             областях строительства и дизайна благоустройства.
           </p>
+          <div className="card">
+            <Link to="/plita-betonnaya-1x05">
+              <img src={assets} alt="" />
+              <p>Плита бетонная 1х0,5 м армированная</p>
+            </Link>
+          </div>
         </aside>
       </div>
     </div>

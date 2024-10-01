@@ -1,6 +1,8 @@
 import React from 'react';
 import './kolodec-zazemleniya.css';
 import Asaid from '../../components/Asaid/Asaid';
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function KolodecZazemleniya() {
   return (
@@ -68,6 +70,32 @@ function KolodecZazemleniya() {
             Колодцы заземления являются важным элементом инфраструктуры для обеспечения безопасности
             и надежности электрических систем.
           </p>
+          <div className="card">
+            <Link to="/kolodec-zazem-bet">
+              <img src={assets.KolodecZazemBet} alt="" />
+              <p>Колодец для заземления бетонный</p>
+            </Link>
+            <Link to="/kolodec-zazem">
+              <img src={assets.KolodecZazemBet} alt="" />
+              <p>Колодец заземления</p>
+            </Link>
+            <Link to="/inspect-kolodec-zazem">
+              <img src={assets.InspectKolodecZazem} alt="" />
+              <p>Инспекционный колодец заземления</p>
+            </Link>
+            <Link to="/kvadrat-kolodec">
+              <img src={assets.KvadratKolodec} alt="" />
+              <p>Квадратный колодец (армированный d 10мм)</p>
+            </Link>
+            <Link to="/dniwe-kvadrat-kolodec">
+              <img src={assets.DniweKvadratKolodec} alt="" />
+              <p>Днище к квадратному колоду (армированное d10 мм)</p>
+            </Link>
+            <Link to="/kriwka-kvadrat-kolodec">
+              <img src={assets.KriwkaKvadratKolodec} alt="" />
+              <p>Крышка к квадратному колодцу</p>
+            </Link>
+          </div>
         </aside>
       </div>
     </div>

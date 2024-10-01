@@ -23,7 +23,7 @@ function PologBresentYtep5x10() {
               <p className="main-text-p">• Размер — 5х10</p>
               <p className="main-text-p">• Утеплитель — изолон 5мм</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

@@ -26,7 +26,7 @@ function TentOxfordYtep2106x8() {
               <p className="main-text-p">• Плотность (гр/м2) — 210</p>
               <p className="main-text-p">• Утеплитель — синтепон</p>
               <br />
-              <p className="zhbi-tittle-main">Цена: 5000 Рублей</p>
+              <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>
           </div>
         </aside>

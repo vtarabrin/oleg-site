@@ -1,6 +1,8 @@
 import React from 'react';
 import './luki.css';
 import Asaid from '../../components/Asaid/Asaid';
+import { Link } from 'react-router-dom';
+import { assets } from '../../assets/assets';
 
 function Luki() {
   return (
@@ -61,6 +63,16 @@ function Luki() {
             Люки играют важную роль в обеспечении безопасности, доступности и обслуживании подземных
             инженерных коммуникаций в различных областях городской и промышленной инфраструктуры.
           </p>
+          <div className="card">
+            <Link to="/luki-polimer">
+              <img src={assets.LukiPolimer} alt="" />
+              <p>Люки полимернопесчанный</p>
+            </Link>
+            <Link to="/luk-beton">
+              <img src={assets.LukBeton} alt="" />
+              <p>Люк бетонный</p>
+            </Link>
+          </div>
         </aside>
       </div>
     </div>
