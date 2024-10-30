@@ -25,6 +25,18 @@ function Asaid() {
         </li>
         <li className="li-left">
           <Link to="/tent-tarpaulin">Тент тарпаулин</Link>
+          <ul className="sub-menu">
+            <li>
+              <Link to="/tent-tarpaulin120">Тент тарпаулин универсальный 120гр/м2 </Link>
+            </li>
+
+            <li>
+              <Link to="/tent-tarpaulin180">Тент тарпаулин универсальный 180гр/м2</Link>
+            </li>
+            <li>
+              <Link to="/tent-tarpaulin70">Тент тарпаулин универсальный 70/м2 </Link>
+            </li>
+          </ul>
         </li>
         <li className="li-left">
           <Link to="/tent-oxford">Тент оксфорд</Link>
@@ -80,11 +92,39 @@ function Asaid() {
         <li className="li-left">
           <li>
             <Link to="/zamer-stolbiki">Замерные столбики</Link>
+            <ul className="sub-menu">
+              <li>
+                <Link to="/jelez-zamer-stolbik">Железобетонные замерные столбики</Link>
+              </li>
+              <li>
+                <Link to="/zamer-stolbik">Замерный указательный столбик</Link>
+              </li>
+            </ul>
           </li>
         </li>
         <li className="li-left">
           <li>
             <Link to="/kolodec-zazemleniya">Колодцы заземления</Link>
+            <ul className="sub-menu">
+              <li>
+                <Link to="/kolodec-zazem-bet">Колодец для заземления бетонный</Link>
+              </li>
+              <li>
+                <Link to="/kolodec-zazem">Колодец заземления</Link>
+              </li>
+              <li>
+                <Link to="/inspect-kolodec-zazem">Инспекционный колодец заземления</Link>
+              </li>
+              <li>
+                <Link to="/kvadrat-kolodec">Квадратный колодец</Link>
+              </li>
+              <li>
+                <Link to="/dniwe-kvadrat-kolodec">Днище к квадратному колодцу</Link>
+              </li>
+              <li>
+                <Link to="/kriwka-kvadrat-kolodec">Крышка к квадратному колодцу</Link>
+              </li>
+            </ul>
           </li>
         </li>
         <li className="li-left">
@@ -95,6 +135,14 @@ function Asaid() {
         <li className="li-left">
           <li>
             <Link to="/luki">Люки</Link>
+            <ul className="sub-menu">
+              <li>
+                <Link to="/luki-polimer">Люки полимернопесчанный </Link>
+              </li>
+              <li>
+                <Link to="/luk-beton">Люк бетонный </Link>
+              </li>
+            </ul>
           </li>
         </li>
         <li className="li-left">
@@ -115,6 +163,16 @@ function Asaid() {
         <li className="li-left">
           <li>
             <Link to="/kaska-stroitel">Каски строительные</Link>
+            <ul className="sub-menu">
+              <li>
+                <Link to="/kaska1">
+                  Защитная каска РОСОМЗ СОМЗ-55 FavoriT Trek RAPID, белая 75617
+                </Link>
+              </li>
+              <li>
+                <Link to="/kaska2">Защитная каска РОСОМЗ СОМЗ-55 FavoriT Trek, красная 75116</Link>
+              </li>
+            </ul>
           </li>
         </li>
         <li className="li-left">
@@ -138,25 +196,6 @@ function Asaid() {
               </li>
               <li>
                 <Link to="/vik-transneft">ВИК Транснефть</Link>
-              </li>
-            </ul>
-          </li>
-        </li>
-        <li className="li-left">
-          <li>
-            <Link to="/komplekt-wablon-svarwik">Комплект и шаблоны сварщика</Link>
-            <ul className="sub-menu">
-              <li>
-                <Link to="/ywk1">Универсальный шаблон Красовского УШК-1</Link>
-              </li>
-              <li>
-                <Link to="/yws2">Универсальный шаблон сварщика УШС-2</Link>
-              </li>
-              <li>
-                <Link to="/yws3">Универсальный шаблон сварщика УШС-3</Link>
-              </li>
-              <li>
-                <Link to="/yws4">Универсальный шаблон сварщика УШС-4</Link>
               </li>
             </ul>
           </li>

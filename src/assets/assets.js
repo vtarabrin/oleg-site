@@ -39,7 +39,7 @@ import LentaSignal from './lenta-signal.jpg';
 import LukBeton from './luk-beton.jpg';
 import LukiPolimer from './luki-polimer.jpg';
 import ZamerStolb24 from './zamer-stolb-24.jpg';
-import YkazatelTablica from './tablica-marker-stolb.jpg';
+import YkazatelTablica from './tablica-marker-stolb.png';
 import BitumNeft from './bitum-neft.png';
 import VikBazaKomplekt from './vik_baze.jpg';
 import VikExpert from './vik_expertnk.jpg';
@@ -47,8 +47,16 @@ import VikExpertComplect from './ekspertnyi_1.jpg';
 import VikNaks from './vik_nax.jpg';
 import VikTransneft from './vik_transneft.jpg';
 import VikYniversalKomplekt from './vik_uni.jpg';
+import PlitaBeton from './plita-beton.png';
+import Kaska1 from './kaska1.png';
+import Kaska2 from './kaska2.png';
+import KaskaStroitel from './kaska1.png';
 
 export const assets = {
+  KaskaStroitel,
+  Kaska1,
+  Kaska2,
+  PlitaBeton,
   VikBazaKomplekt,
   VikExpert,
   VikExpertComplect,

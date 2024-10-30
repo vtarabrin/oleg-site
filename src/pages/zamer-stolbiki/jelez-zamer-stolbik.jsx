@@ -12,7 +12,11 @@ function JelezZamerStolbik() {
           <h3 class="title-example">Замерные столбики</h3>
           <div className="product-cart">
             <div className="product-cart-left">
-              <img src={assets.JelezZamerStolbik} alt="" />
+            <img
+                className="photo"
+                src={assets.JelezZamerStolbik}
+                style={{ height: 250, width: 150 }}
+              />
             </div>
             <div className="product-cart-right">
               <h4 className="zhbi-tittle-main">Железобетонные замерные столбики</h4>

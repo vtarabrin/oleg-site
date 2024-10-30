@@ -8,15 +8,17 @@ function Header() {
       <div className="header-content">
         <div className="row-header">
           <div className="col">
-            <img className="col-img" src={assets.logo2} alt="" />
+            <span className="header-name-company">ТОО "УралПромСнаб"</span>
             <p className="header-p">
-              Торговая компания задача которой являются поставки материалов для нефтегазовой отрасли
+              Торговая компания задача которой являются поставки материалов для промышленной
+              отрасли.
             </p>
-            <a href="sales@ups.org.kz">Отдел продаж: sales@ups.org.kz</a>
-            <br />
-            <br />
-            <a href="89103603114">Whats`App: 77011390404</a>
-            <p className="aturay">г. Атырау</p>
+            <p className="header-p">
+              Экспорт/Импорт оборудования и материалов в рамках ЕАЭС для юридических лиц.
+            </p>
+            <u className='header-u'>
+              <p className="header-p">Отдел продаж: sales@ups.org.kz</p>
+            </u>
           </div>
           <div className="col-right">
             <div className="slider-wrapper">

@@ -11,10 +11,10 @@ function Navbar() {
             <CustomLink to="/home">ГЛАВНАЯ </CustomLink>
           </li>
           <li className="active">
-            <CustomLink to="/about">О нас</CustomLink>
-          </li>
-          <li className="active">
             <CustomLink to="/contacts">Контакты </CustomLink>
+          </li>
+          <li className="about">
+            <CustomLink to="/about">О нас </CustomLink>
           </li>
         </ul>
       </div>

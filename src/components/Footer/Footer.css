@@ -1,5 +1,5 @@
 .footer {
-  background: #fff;
+  background: #f7f7f7;
   padding: 15px 15px;
   border-top: 2px solid #02a1e4;
 }
@@ -13,14 +13,14 @@
 }
 
 .row {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin: 30px auto;
-  grid-gap: 100px;
+  grid-gap: 10px;
   display: grid;
 }
 
 a:hover {
-  color: #45bf92;
+  color: #02a1e4;
 }
 
 .footer a {
@@ -30,7 +30,7 @@ a:hover {
 }
 
 a:hover {
-  color: #45bf92;
+  color: #4682B4;
 }
 
 .h5 {
@@ -98,4 +98,51 @@ a:hover {
 
 .col2 {
   width: 400px;
+}
+
+.middle-text {
+  display: block;
+  font-weight: bold;
+}
+
+.row-info {
+  padding: 0px 0 0px;
+}
+
+.footer-phone {
+  padding-bottom: 0px;
+  display: inline-block;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.footer-email {
+  padding-bottom: 0px;
+  display: inline-block;
+  position: relative;
+  padding-top: 10px;
+}
+
+.footer-col {
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-text {
+  font-weight: 400;
+}
+
+.footer-text-adress {
+  padding-top: -30px;
+}
+
+.middle-text-adress {
+  font-weight: 600;
+  padding-bottom: -10px;
+}
+
+.footer-priem {
+  font-size: 15px;
 }

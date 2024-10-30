@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
@@ -168,15 +166,14 @@ import BitumMG130x200 from './pages/bitum-neft/bitum-mg130x200';
 import BitumMGO40x70 from './pages/bitum-neft/bitum-mgo40x70';
 import BitumMGO70x130 from './pages/bitum-neft/bitum-mgo70x130';
 import BitumMGO130x200 from './pages/bitum-neft/bitum-mgo130x200';
+import Kaska1 from './pages/kaska-stroitel/kaska1';
+import Kaska2 from './pages/kaska-stroitel/kaska2';
 
 function App() {
   return (
-    
     <>
-    
       <Navbar />
       <div className="App">
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
@@ -192,6 +189,8 @@ function App() {
           <Route path="/tent-pvx" element={<TentPvx />} />
           <Route path="/bitum-neft" element={<BitumNeft />} />
           <Route path="/kaska-stroitel" element={<KaskaStroitel />} />
+          <Route path="/kaska1" element={<Kaska1 />} />
+          <Route path="/kaska2" element={<Kaska2 />} />
           <Route path="/kolodec-zazemleniya" element={<KolodecZazemleniya />} />
           <Route path="/komplekt-vik" element={<KomplktVik />} />
           <Route path="/komplekt-wablon-svarwik" element={<KomplektWablonSvarwik />} />
@@ -347,7 +346,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-      
     </>
   );
 }

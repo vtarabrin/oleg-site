@@ -19,7 +19,7 @@ function Pdk23() {
               <p className="zhbi-tittle-main-h3">Характеристики:</p>
               <p className="main-text-p">• Вид железобетонного изделия - днище</p>
               <p className="main-text-p">• Масса - 180 кг</p>
-              <p className="main-text-p">• Размеры - 17012 кг</p>
+              <p className="main-text-p">• Размеры - 170*12 см</p>
               <br />
               <p className="zhbi-tittle-main">Цена: по запросу</p>
             </div>

@@ -12,7 +12,11 @@ function PlitaBetonnaya1x05() {
           <h3 class="title-example">Плиты бетонные</h3>
           <div className="product-cart">
             <div className="product-cart-left">
-              <img src={assets.betonPlitkaKabel} alt="" />
+            <img
+                className="photo"
+                src={assets.PlitaBeton}
+                style={{ height: 150, width: 300 }}
+              />
             </div>
             <div className="product-cart-right">
               <h4 className="zhbi-tittle-main">Плита бетонная 1х0,5 м армированная</h4>

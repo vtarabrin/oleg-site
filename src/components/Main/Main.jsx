@@ -36,7 +36,11 @@ function Main() {
               <p>Бетонная плитка для защиты кабеля</p>
             </Link>
             <Link to="/zamer-stolbiki">
-              <img src={assets.ZamerStolb24} alt="" />
+              <img
+                className="photo"
+                src={assets.ZamerStolb24}
+                style={{ height: 170, width: 100 }}
+              />
               <p>Замерные столбики</p>
             </Link>
             <Link to="/kolodec-zazemleniya">
@@ -45,7 +49,7 @@ function Main() {
               <p>Колодцы заземления</p>
             </Link>
             <Link to="/plita-betonnaya">
-              <img src={assets} alt="" />
+              <img src={assets.PlitaBeton} alt="" />
               <br />
               <p>Плиты бетонные</p>
             </Link>
@@ -65,22 +69,23 @@ function Main() {
               <p>Указательные таблички</p>
             </Link>
             <Link to="/bitum-neft">
-              <img src={assets.BitumNeft} alt="" />
+            <img
+                className="photo"
+                src={assets.BitumNeft}
+                style={{ height: 150, width: 150 }}
+              />
               <br />
               <p>Битумы нефтяные</p>
             </Link>
             <Link to="/kaska-stroitel">
-              <img src={assets} alt="" />
+              <img src={assets.KaskaStroitel} alt="" />
               <p>Каски строительные</p>
             </Link>
             <Link to="/komplekt-vik">
               <img src={assets.VikBazaKomplekt} alt="" />
               <p>Комплект визуально-измерительного контроля ВИК</p>
             </Link>
-            <Link to="/komplekt-wablon-svarwik">
-              <img src="https://brezent.su/image/cache/catalog/category/1-98x100.jpg.webp" alt="" />
-              <p>Комплект и шаблоны сварщика</p>
-            </Link>
+            
           </div>
         </aside>
       </div>

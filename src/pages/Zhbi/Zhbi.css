@@ -47,6 +47,7 @@ h3.title-example:hover:after {
   margin-bottom: 10px;
   font-size: 1.2em;
   font-weight: 700;
+  color: red;
 }
 
 .zhbi-tittle-main-h3 {
@@ -63,4 +64,12 @@ h3.title-example:hover:after {
 
 .card {
   padding-top: 10px;
+}
+
+.title {
+  font-size: 15px;
+}
+
+.title-top {
+  font-size: 15px;
 }
